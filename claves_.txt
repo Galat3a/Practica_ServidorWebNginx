@@ -1,0 +1,7 @@
+Country Name (2 letter code) [AU]:SP
+State or Province Name (full name) [Some-State]:GR
+Locality Name (eg, city) []:GR
+Organization Name (eg, company) [Internet Widgits Pty Ltd]:AL
+Organizational Unit Name (eg, section) []:AL
+Common Name (e.g. server FQDN or YOUR name) []:AL
+Email Address []:amorvie545@ieszaidinvergeles.org
