@@ -202,6 +202,11 @@ Vuelvo a modificar el archivo hosts de mi Windows, para que asocie la IP a param
 ```bash
    C:\Windows\System32\drivers\etc\hosts
 ```
+modificamos el nombre nginxS por paramoreweb
+```bash
+   192.168.1.9 paramoreweb
+```
+
 Y ya tendramos lista nuestra Web.
 
 ## 5. Cuestiones finales
