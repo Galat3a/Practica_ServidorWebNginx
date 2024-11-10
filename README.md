@@ -204,7 +204,7 @@ Vuelvo a modificar el archivo hosts de mi Windows, para que asocie la IP a param
 ```
 Y ya tendramos lista nuestra Web.
 
-#Cuestiones finales 
+## 5. Cuestiones finales
 
 ¿Qué sucede si no realizo el enlace simbólico entre sites-available y sites-enabled para mi sitio en Nginx?
 
