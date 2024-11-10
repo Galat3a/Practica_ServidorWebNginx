@@ -32,6 +32,8 @@ Vagrant.configure("2") do |config|
     sudo chmod 755 /etc/ssl/private
     sudo systemctl restart vsftpd
   SHELL
+  #Esta parte deberia de ejecutarse despues de haber creado la maquina con las provisiones anteriores, 
+  #y haber pasado los archivos de la web por WINSCP.  Una vez pasado, se ejecuta con el comando vagrant provision --provision-with paramoreweb
     config.vm.provision "shell", name: "paramoreweb", run: "never", inline: <<-SHELL
     sudo rm /etc/nginx/sites-enabled/nginxS
     sudo mkdir -p /var/www/paramoreweb/html
