@@ -219,9 +219,8 @@ Y aqui podemos visualizar nuestra web:
 
 <img src="img/3.png"/>
 
-#Cuestiones finales 
+#5. Cuestiones finales 
 =======
-## 5. Cuestiones finales
 
 ¿Qué sucede si no realizo el enlace simbólico entre sites-available y sites-enabled para mi sitio en Nginx?
 
