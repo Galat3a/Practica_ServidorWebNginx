@@ -202,8 +202,14 @@ Vuelvo a modificar el archivo hosts de mi Windows, para que asocie la IP a param
 ```bash
    C:\Windows\System32\drivers\etc\hosts
 ```
+modificamos el nombre nginxS por paramoreweb
+```bash
+   192.168.1.9 paramoreweb
+```
+
 Y ya tendramos lista nuestra Web.
 
+<<<<<<< HEAD
 Aqui muestro las capturas de patalla para visualizar la transferencia de datos (index y asset) de local a la maquina virtual.
 
 <img src="img/1.png"/>
@@ -214,6 +220,9 @@ Y aqui podemos visualizar nuestra web:
 <img src="img/3.png"/>
 
 #Cuestiones finales 
+=======
+## 5. Cuestiones finales
+>>>>>>> b6276b2fb94e5fe09707cd6e037fba8fff9f4b27
 
 ¿Qué sucede si no realizo el enlace simbólico entre sites-available y sites-enabled para mi sitio en Nginx?
 

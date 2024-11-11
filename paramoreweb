@@ -1,7 +1,7 @@
 server {
 	listen 80;
 	listen [::]:80;
-	root /var/www/paramoreweb/html/static-website-example;
+	root /var/www/paramoreweb/html;
 	index index.html index.htm index.nginx-debian.html;
 	server_name paramore.192.168.1.9.nip.io;
 	location / {
