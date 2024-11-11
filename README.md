@@ -222,7 +222,6 @@ Y aqui podemos visualizar nuestra web:
 #Cuestiones finales 
 =======
 ## 5. Cuestiones finales
->>>>>>> b6276b2fb94e5fe09707cd6e037fba8fff9f4b27
 
 ¿Qué sucede si no realizo el enlace simbólico entre sites-available y sites-enabled para mi sitio en Nginx?
 
