@@ -35,13 +35,14 @@ Vagrant.configure("2") do |config|
   #Esta parte deberia de ejecutarse despues de haber creado la maquina con las provisiones anteriores, 
   #y haber pasado los archivos de la web por WINSCP.  Una vez pasado, se ejecuta con el comando vagrant provision --provision-with paramoreweb
     config.vm.provision "shell", name: "paramoreweb", run: "never", inline: <<-SHELL
-    sudo rm /etc/nginx/sites-enabled/nginxS
-    sudo mkdir -p /var/www/paramoreweb/html
-    sudo cp -r /home/vagrant/ftp/* /var/www/paramoreweb/html
-    sudo chown -R www-data:www-data /var/www/paramoreweb/html
-    sudo chmod -R 755 /var/www/paramoreweb
+    rm /etc/nginx/sites-enabled/nginxS
+    rm /etc/nginx/sites-avaible/nginxS #No haria falta borrarlo, pero por si me diera algun problema 
+    mkdir -p /var/www/paramoreweb/html
+    cp -r /home/vagrant/ftp/* /var/www/paramoreweb/html
+    chown -R www-data:www-data /var/www/paramoreweb/html
+    chmod -R 755 /var/www/paramoreweb
     cp -v /vagrant/paramoreweb /etc/nginx/sites-available/
-    sudo ln -s /etc/nginx/sites-available/paramoreweb /etc/nginx/sites-enabled/
-    sudo systemctl restart nginx
+    ln -s /etc/nginx/sites-available/paramoreweb /etc/nginx/sites-enabled/
+    systemctl restart nginx
   SHELL
 end

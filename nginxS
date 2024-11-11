@@ -3,7 +3,7 @@ server {
 	listen [::]:80;
 	root /var/www/nginxS/html/static-website-example;
 	index index.html index.htm index.nginx-debian.html;
-	server_name nginxS;
+	server_name nginxS.192.168.1.9.nip.io;
 	location / {
 		try_files $uri $uri/ =404;
 	}

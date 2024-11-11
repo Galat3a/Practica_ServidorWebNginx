@@ -204,6 +204,15 @@ Vuelvo a modificar el archivo hosts de mi Windows, para que asocie la IP a param
 ```
 Y ya tendramos lista nuestra Web.
 
+Aqui muestro las capturas de patalla para visualizar la transferencia de datos (index y asset) de local a la maquina virtual.
+
+<img src="img/1.png"/>
+<img src="img/2.png"/>
+
+Y aqui podemos visualizar nuestra web:
+
+<img src="img/3.png"/>
+
 #Cuestiones finales 
 
 ¿Qué sucede si no realizo el enlace simbólico entre sites-available y sites-enabled para mi sitio en Nginx?
